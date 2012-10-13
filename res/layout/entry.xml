@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:orientation="vertical"
+  android:layout_height="match_parent">
+    <TextView android:text="PLAY GAME" android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <Button android:text="Level 1" android:layout_width="fill_parent" android:id="@+id/btnLvl1" android:layout_height="wrap_content" android:onClick="onClickBtn"></Button>
+    <Button android:text="Level 2" android:id="@+id/btnLvl2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickBtn"></Button>
+    <Button android:text="Level 3" android:id="@+id/btnLvl3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickBtn"></Button>
+    <Button android:text="Level 4" android:id="@+id/btnLvl4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickBtn"></Button>
+    <Button android:text="Level 5" android:id="@+id/btnLvl5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onClickBtn"></Button>
+</LinearLayout>
